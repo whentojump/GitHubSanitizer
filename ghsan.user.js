@@ -59,7 +59,6 @@ function handleBlocksInOnePage(blockContainer) {
         case 'watch_started': // star
         case 'fork':
         case 'public':
-        case 'repo': // create a new repo
             handleBlockType1(block);
             break;
         case 'body': // something to expand, e.g. someone starred multiple repos
@@ -68,6 +67,7 @@ function handleBlocksInOnePage(blockContainer) {
         case 'push':
         case 'follow':
         case 'release':
+        case 'repo': // create a new repo
             break;
         }
     });
