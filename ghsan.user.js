@@ -2,8 +2,7 @@
 // @name         GitHubSanitizer
 // @namespace    https://whentojump.xyz/
 // @version      0.1
-// @description  Add "mark as read" buttons to your GitHub homepage news feed,
-//               and prevent ever-read items from being displayed again.
+// @description  Add "mark as read" buttons to your GitHub homepage news feed, and prevent ever-read items from being displayed again.
 // @author       wtj
 // @match        https://github.com/
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=github.com
