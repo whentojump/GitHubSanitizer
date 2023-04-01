@@ -96,7 +96,7 @@ function handleBlockType2(block) {
     //
 
     // Hide expand buttons
-    let expandDetailsButton = block.querySelector('button'); // UNRELIABLE
+    let expandDetailsButton = block.querySelector('button.js-details-targe'); // UNRELIABLE
     if (expandDetailsButton) {
         doNotDisplay(expandDetailsButton);
     }
